@@ -9,5 +9,6 @@ public class ServicioNotificacionAltoA {
 
     public void notificar(String mensaje) {
         emailService.enviarEmail(mensaje);
+
     }
 }
